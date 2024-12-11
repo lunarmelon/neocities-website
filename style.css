@@ -1,0 +1,126 @@
+@font-face {
+  font-family: Bariol;
+  font-weight: normal;
+  src:
+    url("https://saki.ichoria.org/f/zteu1/barriol-regular.woff2")
+      format("woff2"),
+    url("https://saki.ichoria.org/f/b2x1b/bariol-regular.ttf")
+      format("truetype");
+  font-display: swap;
+}
+
+body {
+  background-image: url("assets/starsagain.gif");
+  font-family: Bariol, "Segoe UI", "Helvetica Neue", Arial, "Noto Sans",
+    sans-serif;
+  font-size: 17pt;
+  text-rendering: optimizeSpeed;
+  text-align: center;
+  display: block;
+  margin: auto;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  line-height: 1.2;
+  color: #eee;
+}
+
+main {
+  width: 600px;
+  min-height: 500px;
+  background-color: #0000009c;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.8rem;
+  color: #b1b3cd;
+  padding: 0.25em;
+}
+
+p {
+  margin: 0;
+  padding-top: 0.1em;
+  padding-bottom: 0.2em;
+  text-align: justify;
+}
+
+#header-container {
+  padding: 20px;
+  margin: 0px;
+}
+
+header {
+  width: 100%;
+  font-size: 60px;
+
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+}
+
+header a {
+  text-decoration: none;
+}
+
+ul {
+  margin-top: 10px;
+}
+
+ul li {
+  list-style: square;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  padding: 0px;
+}
+
+nav {
+  font-size: 17px;
+  width: 200px;
+  height: fit-content;
+  margin: 0 20px;
+  background-color: #00000015;
+}
+
+nav a {
+  text-align: center;
+  display: inline-block;
+  border-radius: 10px;
+  margin: 2px 0;
+  width: 110px;
+  text-decoration: none;
+}
+
+pre {
+  margin: 5px 0;
+}
+
+.title {
+  font-family: monospace;
+  font-size: 32pt;
+  color: #b1b3cd;
+  text-shadow: 2px 2px #50537c;
+}
+
+.main-container {
+  display: flex;
+}
+
+.main-content {
+  text-align: left;
+}
+
+.border {
+  border: #080808 solid 2px;
+}
+
+.padding {
+  padding: 20px;
+}
+
+.float-left {
+  float: left;
+}
