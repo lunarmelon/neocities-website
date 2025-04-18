@@ -2,17 +2,15 @@
   font-family: Bariol;
   font-weight: normal;
   src:
-    url("https://saki.ichoria.org/f/zteu1/barriol-regular.woff2")
-      format("woff2"),
-    url("https://saki.ichoria.org/f/b2x1b/bariol-regular.ttf")
-      format("truetype");
+    url("https://saki.ichoria.org/f/zteu1/barriol-regular.woff2") format("woff2"),
+    url("https://saki.ichoria.org/f/b2x1b/bariol-regular.ttf") format("truetype");
   font-display: swap;
 }
 
 body {
   background-image: url("assets/starsagain.gif");
-  font-family: Bariol, "Segoe UI", "Helvetica Neue", Arial, "Noto Sans",
-    sans-serif;
+  font-family:
+    Bariol, "Segoe UI", "Helvetica Neue", Arial, "Noto Sans", sans-serif;
   font-size: 17pt;
   text-rendering: optimizeSpeed;
   text-align: center;
