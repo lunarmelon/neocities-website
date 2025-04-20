@@ -4,41 +4,71 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <link rel="icon" type="image" href="assets/pixel-melon.png" />
-    <title>melon sanctuary</title>
+    <link rel="icon" type="image" href="assets/full-moon.png" />
+    <title>Lunarium</title>
   </head>
 
   <body>
-    <div style="display: inline-block">
-      <div id="header-container">
-        <header class="col-term" style="width: 100%">
-          <strong><a href="/">Melon Sanctuary</a></strong>
-        </header>
+    <div id="container">
+      <div id="header" style="height: 150px"></div>
+      <div id="headerArea">
+        <nav id="navbar" style="margin-bottom: 10px">
+          <ul>
+            <li><a href="/" class="active">Home </a></li>
+            <li><a href="projects">Projects</a></li>
+            <li><a href="about-me">About me</a></li>
+            <li><a href="contact/">Contact</a></li>
+            <li><a href="credits/">Credits</a></li>
+          </ul>
+        </nav>
       </div>
-      <div class="main-container">
-        <nav id="nav-panel" class="border padding">
+
+      <div id="flex">
+        <main>
+          <h1>Welcome to my Lunar Sanctuary!</h1>
+          <p>Hi, I'm <b>Karris</b> and welcome (finally) to my website!</p>
+          <p>
+            This website will be my little sanctuary to share things about me,
+            things I do and stuff I like.
+          </p>
+          <p>
+            The website is pretty bare bones right now, I will be adding stuff
+            progressively and moving things around here.
+          </p>
+          <h3>Feel free to have a look around!</h3>
+        </main>
+
+        <aside id="leftSidebar" style="margin-right: 10px">
+          <h2>Updates</h2>
+          <div class="box">
+            <ul style="padding-left: 10px">
+              <li>[20-04-2025] First version the website!</li>
+            </ul>
+          </div>
+          <h3>Useful tools:</h3>
           <ul>
             <li>
-              <a href="/">Melon</a>
+              <a href="#" target="_blank">HTML Cheatsheet</a>
             </li>
-            <br />
-            <li>[<a href="projects/">Projects</a>]</li>
-            <li>[<a href="about-me/">About me</a>]</li>
+            <li>
+              <a href="#" target="_blank">Webmaster Links</a>
+            </li>
+            <li>
+              <a href="#" target="_blank">Tiled BGs</a>
+            </li>
+            <li>
+              <a href="#" target="_blank">Fonts</a>
+            </li>
+            <li>
+              <a href="#" target="_blank">Site Ideas</a>
+            </li>
           </ul>
-          <hr />
-        </nav>
-        <main class="border padding">
-          <div class="main-content"></div>
-          <h2>The sanctuary is under construction! :)</h2>
-          <p>Check back on it later if you want.</p>
-        </main>
-        <nav id="main-panel" class="border padding">
-          <div style="height: 125px"></div>
-          <hr />
-          <h3 class="float-left">Buttons</h3>
-          <div></div>
-        </nav>
+        </aside>
       </div>
+
+      <footer id="footer" style="margin-top: 10px">
+        <u>One day, I will go the Moon. </u>
+      </footer>
     </div>
   </body>
 </html>
