@@ -267,7 +267,8 @@ and then subtrack it by 100. use this new number as the
   }
 
   #header {
-    background-size: 900px;
+    background-size: 800px;
+    background-position-x: 38rem;
   }
 }
 
@@ -294,8 +295,7 @@ and then subtrack it by 100. use this new number as the
   display: flex;
   width: max-content;
   gap: 0.2rem;
-  animation: marquee-move-images var(--speed, 15s) linear infinite
-    var(--direction, forwards);
+  animation: marquee-move-images var(--speed, 15s) linear infinite var(--direction, forwards);
 }
 
 @keyframes marquee-move-images {
