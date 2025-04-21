@@ -95,7 +95,7 @@ EXCEPT for the navigation */
   width: 100%;
   background-color: #5e4e8c;
   /* header color here! */
-  height: 150px;
+  height: 170px;
   /* this is only for a background image! */
   /* if you want to put images IN the header, 
   you can add them directly to the <div id="header"></div> element! */
@@ -166,6 +166,10 @@ main {
   flex: 1;
   padding: 20px;
   order: 2;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 15px;
 }
 
 /* what's this "order" stuff about??
@@ -233,7 +237,7 @@ and then subtrack it by 100. use this new number as the
 "max-width" value below
 */
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 900px) {
   #flex {
     flex-wrap: wrap;
   }
@@ -260,6 +264,10 @@ and then subtrack it by 100. use this new number as the
 
   #navbar ul {
     flex-wrap: wrap;
+  }
+
+  #header {
+    background-size: 900px;
   }
 }
 
@@ -294,4 +302,21 @@ and then subtrack it by 100. use this new number as the
   to {
     transform: translateX(-50%);
   }
+}
+
+figure {
+  margin: 0 auto;
+  flex-shrink: 0;
+  padding-top: 20px;
+  min-width: 250px;
+}
+
+figcaption {
+  text-align: center;
+  font-size: 0.7rem;
+}
+
+.aboutme-image {
+  max-height: 250px;
+  border: 1px solid #ed64f5;
 }
