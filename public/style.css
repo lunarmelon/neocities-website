@@ -51,10 +51,9 @@ and then link it! Many fonts have separate files for each style
 
 body {
   font-family: "Nunito", sans-serif;
-  margin: 0;
   background-color: #08031a;
   /* you can delete the line below if you'd prefer to not use an image */
-  background-size: 65px;
+  background-size: 100px;
   color: #fceaff;
   background-image: var(--body-bg-image);
 }
@@ -74,11 +73,11 @@ before and after the text */
 the other elements, you will need to move that div outside
 of the container */
 #container {
-  max-width: 900px;
+  max-width: 1000px;
   /* this is the width of your layout! */
   /* if you change the above value, scroll to the bottom
   and change the media query according to the comment! */
-  margin: 0 auto;
+  margin: auto;
   /* this centers the entire page */
 }
 
@@ -155,7 +154,7 @@ create styles for #leftSidebar and #rightSidebar */
 aside {
   background-color: #241445;
   width: 200px;
-  padding: 20px;
+  padding: 18px;
   font-size: smaller;
   /* this makes the sidebar text slightly smaller */
 }
@@ -261,5 +260,38 @@ and then subtrack it by 100. use this new number as the
 
   #navbar ul {
     flex-wrap: wrap;
+  }
+}
+
+#statuscafe {
+  padding: 5px;
+}
+
+#statuscafe-username {
+  margin-bottom: 0.3em;
+  padding: 5px;
+}
+
+#statuscafe-content {
+  margin: auto;
+  padding: 5px;
+}
+
+.marquee-wrapper {
+  width: 100%;
+  overflow: hidden;
+}
+
+.marquee-images {
+  display: flex;
+  width: max-content;
+  gap: 0.2rem;
+  animation: marquee-move-images var(--speed, 15s) linear infinite
+    var(--direction, forwards);
+}
+
+@keyframes marquee-move-images {
+  to {
+    transform: translateX(-50%);
   }
 }
