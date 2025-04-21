@@ -1,105 +1,166 @@
 <!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="icon" type="image/png" href="../assets/Gengar-Gen2.png" />
+    <title>Lunarium</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="../style.css" />
-  <link rel="icon" type="image" href="../assets/full-moon.png" />
-  <title>Lunarium</title>
-</head>
+  <body>
+    <div id="container">
+      <div id="header"></div>
+      <div id="headerArea">
+        <nav id="navbar" style="margin-bottom: 10px">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="../projects/">Projects</a></li>
+            <li><a href="../about-me/" class="active">About me</a></li>
+            <li><a href="../fun/tamanotchi.html">Fun stuff</a></li>
+            <li><a href="#">Guestbook</a></li>
+            <li><a href="../contact/">Contact</a></li>
+            <li><a href="../credits/">Credits</a></li>
+          </ul>
+        </nav>
+      </div>
 
-<body>
-  <div id="container">
-    <div id="header"></div>
-    <div id="headerArea">
-      <nav id="navbar" style="margin-bottom: 10px">
-        <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="../projects/">Projects</a></li>
-          <li><a href="../about-me/" class="active">About me</a></li>
-          <li><a href="../contact/">Contact</a></li>
-          <li><a href="../credits/">Credits</a></li>
-        </ul>
-      </nav>
-    </div>
-
-    <div id="flex">
-      <main>
-        <figure>
-          <img src="../assets/gengar.gif" alt="Gengar" class="aboutme-image" />
-          <figcaption>Visual representation of how I look.
-          </figcaption>
-        </figure>
-        <div style="flex: 1; min-width: 300px; padding-left: 10px;">
-          <p>
-            My name is Karris and my pronouns are he/they. I'm a 22 year-old non-binary person that likes
-            playing videogames, reading and doing computer stuff. I like the moon and my favorite fruit is watermelon
-            <strong>(hence my internet alias: lunarmelon)</strong>. I also do cosplay every now and then (when I have
-            money and time).
-          </p>
-          <p>I have a special interest for videogame design and I dream to be a videogame programmer/designer in the
-            future.</p>
-          <p>I made this website just for fun, learning about web design and leaving my footprint on the internet.</p>
-          <p>I speak Spanish and English, but I manage my socials mostly in Spanish, so keep that in mind. However, I
-            try that all the code I publish is written primarily in English.</p>
-        </div>
-      </main>
-
-      <aside id="leftSidebar" style="margin-right: 10px">
-        <h2 style="margin-top: 0px">Updates</h2>
-        <div class="box">
-          <div id="statuscafe">
-            <div id="statuscafe-username"></div>
-            <div id="statuscafe-content"></div>
+      <div id="flex">
+        <main class="main-aboutme">
+          <figure>
+            <img
+              src="../assets/gengar.gif"
+              alt="Gengar"
+              class="aboutme-image"
+            />
+            <figcaption>Visual representation of how I look.</figcaption>
+          </figure>
+          <div style="flex: 1; min-width: 300px; padding-left: 10px">
+            <p>
+              My name is Karris and my pronouns are he/they. I'm a 22 year-old
+              non-binary person that likes playing videogames, reading and doing
+              computer stuff. I like the moon and my favorite fruit is
+              watermelon
+              <strong>(hence my internet alias: lunarmelon)</strong>. I also do
+              cosplay every now and then (when I have money and time).
+            </p>
+            <p>
+              I have a special interest for videogame design and I dream to be a
+              videogame programmer/designer in the future.
+            </p>
+            <p>
+              I made this website just for fun, learning about web design and
+              leaving my footprint on the internet.
+            </p>
+            <p>
+              I speak Spanish and English, but I manage my socials mostly in
+              Spanish, so keep that in mind. However, I try that all the code I
+              publish is written primarily in English.
+            </p>
           </div>
-          <script src="https://status.cafe/current-status.js?name=kawamelon" defer></script>
-        </div>
-        <br>
-        <div class="marquee-wrapper">
-          <div class="marquee-images">
-            <!--First blinkie row-->
-            <img src="../assets/buttons/drpepper.gif" alt="Dr. Pepper gif" />
-            <img src="../assets/buttons/miku.gif" alt="Hatsune Miku gif" />
-            <img src="../assets/buttons/neocities_rainbow.gif" alt="Neocities rainbow gif" />
-            <img src="../assets/buttons/sonadow.jpg" alt="Sonic Adventure 2 gif" />
-            <img src="../assets/buttons/neocitizensrock.gif" alt="Neocitizens rock">
+        </main>
 
-            <!--Second blinkie row-->
-            <img src="../assets/buttons/drpepper.gif" alt="Dr. Pepper gif" />
-            <img src="../assets/buttons/miku.gif" alt="Hatsune Miku gif" />
-            <img src="../assets/buttons/neocities_rainbow.gif" alt="Neocities rainbow gif" />
-            <img src="../assets/buttons/sonadow.jpg" alt="Sonic Adventure 2 gif" / </div>
-            <img src="../assets/buttons/neocitizensrock.gif" alt="Neocitizens rock">
+        <aside id="leftSidebar" style="margin-right: 10px">
+          <h2 style="margin-top: 0px">Updates</h2>
+          <div class="box">
+            <div id="statuscafe">
+              <div id="statuscafe-username"></div>
+              <div id="statuscafe-content"></div>
+            </div>
+            <script
+              src="https://status.cafe/current-status.js?name=kawamelon"
+              defer
+            ></script>
+          </div>
+          <br />
+          <div class="marquee-wrapper">
+            <div class="marquee-images">
+              <!--First blinkie row-->
+              <img src="../assets/buttons/drpepper.gif" alt="Dr. Pepper gif" />
+              <img src="../assets/buttons/miku.gif" alt="Hatsune Miku gif" />
+              <img
+                src="../assets/buttons/neocities_rainbow.gif"
+                alt="Neocities rainbow gif"
+              />
+              <img
+                src="../assets/buttons/sonadow.jpg"
+                alt="Sonic Adventure 2 gif"
+              />
+              <img
+                src="../assets/buttons/neocitizensrock.gif"
+                alt="Neocitizens rock"
+              />
+
+              <!--Second blinkie row-->
+              <img src="../assets/buttons/drpepper.gif" alt="Dr. Pepper gif" />
+              <img src="../assets/buttons/miku.gif" alt="Hatsune Miku gif" />
+              <img
+                src="../assets/buttons/neocities_rainbow.gif"
+                alt="Neocities rainbow gif"
+              />
+              <img
+                src="../assets/buttons/sonadow.jpg"
+                alt="Sonic Adventure 2 gif"
+              />
+              <img
+                src="../assets/buttons/neocitizensrock.gif"
+                alt="Neocitizens rock"
+              />
+            </div>
           </div>
           <p></p>
           <div class="marquee-wrapper">
             <div class="marquee-images">
               <!--First stamp row-->
-              <img src="../assets/stamps/garfpropaganda.png"
-                alt="Stamp with the text: You are not immune to propaganda" />
-              <img src="../assets/stamps/spongebob.gif" alt="Stamp with SpongeBob's face" />
-              <img src="../assets/stamps/triplebaka.gif"
-                alt="Stamp with Kasane Teto and Hatsune Miku from Triple Baka music video" />
-              <img src="../assets/stamps/winkcat.gif" alt="Stamp of a cat with a text balloon of a winking emoticon" />
-              <img src="../assets/stamps/teto.gif" alt="Stamp for Kasane Teto moving her head">
+              <img
+                src="../assets/stamps/garfpropaganda.png"
+                alt="Stamp with the text: You are not immune to propaganda"
+              />
+              <img
+                src="../assets/stamps/spongebob.gif"
+                alt="Stamp with SpongeBob's face"
+              />
+              <img
+                src="../assets/stamps/triplebaka.gif"
+                alt="Stamp with Kasane Teto and Hatsune Miku from Triple Baka music video"
+              />
+              <img
+                src="../assets/stamps/winkcat.gif"
+                alt="Stamp of a cat with a text balloon of a winking emoticon"
+              />
+              <img
+                src="../assets/stamps/teto.gif"
+                alt="Stamp for Kasane Teto moving her head"
+              />
 
               <!--Second stamp row-->
-              <img src="../assets/stamps/garfpropaganda.png"
-                alt="Stamp with the text: You are not immune to propaganda" />
-              <img src="../assets/stamps/spongebob.gif" alt="Stamp with SpongeBob's face" />
-              <img src="../assets/stamps/triplebaka.gif"
-                alt="Stamp with Kasane Teto and Hatsune Miku from Triple Baka music video" />
-              <img src="../assets/stamps/winkcat.gif" alt="Stamp of a cat with a text balloon of a winking emoticon" />
-              <img src="../assets/stamps/teto.gif" alt="Stamp for Kasane Teto moving her head">
+              <img
+                src="../assets/stamps/garfpropaganda.png"
+                alt="Stamp with the text: You are not immune to propaganda"
+              />
+              <img
+                src="../assets/stamps/spongebob.gif"
+                alt="Stamp with SpongeBob's face"
+              />
+              <img
+                src="../assets/stamps/triplebaka.gif"
+                alt="Stamp with Kasane Teto and Hatsune Miku from Triple Baka music video"
+              />
+              <img
+                src="../assets/stamps/winkcat.gif"
+                alt="Stamp of a cat with a text balloon of a winking emoticon"
+              />
+              <img
+                src="../assets/stamps/teto.gif"
+                alt="Stamp for Kasane Teto moving her head"
+              />
             </div>
           </div>
-      </aside>
+        </aside>
+      </div>
+      <footer id="footer" style="margin-top: 10px">
+        <u>I'll see you at the Moon.</u>
+      </footer>
     </div>
-    <footer id="footer" style="margin-top: 10px">
-      <u>I'll see you at the Moon.</u>
-    </footer>
-  </div>
-</body>
-
+  </body>
 </html>

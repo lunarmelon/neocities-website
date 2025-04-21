@@ -166,6 +166,9 @@ main {
   flex: 1;
   padding: 20px;
   order: 2;
+}
+
+.main-aboutme {
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
