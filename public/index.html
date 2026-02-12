@@ -1,71 +1,63 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="icon" type="image/png" href="assets/Gengar-Gen2.png" />
-    <script src="components/stamps-marquee.js" defer></script>
-    <script src="components/blinkies-marquee.js" defer></script>
-    <title>Lunarium</title>
-  </head>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="style.css">
+		<link rel="icon" type="image/png" href="assets/Gengar-Gen2.png">
+		<script src="components/stamps-marquee.js" defer></script>
+		<script src="components/blinkies-marquee.js" defer></script>
+		<script src="components/status-cafe.js" defer></script>
+		<title>Lunarium</title>
+	</head>
 
-  <body>
-    <div id="container">
-      <div id="header"></div>
-      <div id="headerArea">
-        <nav id="navbar" style="margin-bottom: 10px">
-          <ul class="nav-list">
-            <li><a href="." class="active">Home </a></li>
-            <li><a href="projects">Projects</a></li>
-            <li><a href="about-me">About me</a></li>
-            <li><a href="fun/tamanotchi.html">Fun stuff</a></li>
-            <li><a href="guestbook/">Guestbook</a></li>
-            <li><a href="contact/">Contact</a></li>
-            <li><a href="credits/">Credits</a></li>
-          </ul>
-        </nav>
-      </div>
+	<body>
+		<div id="container">
+			<div id="header"></div>
+			<div id="headerArea">
+				<nav id="navbar" style="margin-bottom: 10px">
+					<ul class="nav-list">
+						<li><a href="." class="active">Home </a></li>
+						<li><a href="projects">Projects</a></li>
+						<li><a href="about-me">About me</a></li>
+						<li><a href="fun/tamanotchi.html">Fun stuff</a></li>
+						<li><a href="guestbook/">Guestbook</a></li>
+						<li><a href="contact/">Contact</a></li>
+						<li><a href="credits/">Credits</a></li>
+					</ul>
+				</nav>
+			</div>
 
-      <div id="flex">
-        <main>
-          <h1>Welcome to my Lunar Sanctuary!</h1>
-          <p>Hi, I'm <b>Karris</b> and welcome to my website, the Lunarium!</p>
-          <p>
-            This website will be my little sanctuary to share things about me,
-            things I do and stuff I like.
-          </p>
-          <p>
-            The website is pretty bare bones right now, I will be adding stuff
-            progressively and moving things around here.
-          </p>
-          <h3>Feel free to have a look around!</h3>
-        </main>
+			<div id="flex">
+				<main>
+					<h1>Welcome to my Lunar Sanctuary!</h1>
+					<p>Hi, I'm <b>Karris</b> and welcome to my website, the Lunarium!</p>
+					<p>
+						This website will be my little sanctuary to share things about me,
+						things I do and stuff I like.
+					</p>
+					<p>
+						The website is pretty bare bones right now, I will be adding stuff
+						progressively and moving things around here.
+					</p>
+					<h3>Feel free to have a look around!</h3>
+				</main>
 
-        <aside id="leftSidebar" style="margin-right: 10px">
-          <h2 style="margin-top: 0px">Updates</h2>
-          <div class="box">
-            <div id="statuscafe">
-              <div id="statuscafe-username"></div>
-              <div id="statuscafe-content"></div>
-            </div>
-            <script
-              src="https://status.cafe/current-status.js?name=kawamelon"
-              defer
-            ></script>
-          </div>
-          <br />
-          <!--Blinkies-->
-          <blinkies-marquee></blinkies-marquee>
-          <br />
-          <!--Stamps-->
-          <stamps-marquee></stamps-marquee>
-        </aside>
-      </div>
+				<aside id="leftSidebar" style="margin-right: 10px">
+					<h2 style="margin-top: 0px">Updates</h2>
+					<status-cafe></status-cafe>
+					<br>
+					<!--Blinkies-->
+					<blinkies-marquee></blinkies-marquee>
+					<br>
+					<!--Stamps-->
+					<stamps-marquee></stamps-marquee>
+				</aside>
+			</div>
 
-      <footer id="footer" style="margin-top: 10px">
-        <u>I'll see you at the Moon.</u>
-      </footer>
-    </div>
-  </body>
+			<footer id="footer" style="margin-top: 10px">
+				<u>I'll see you at the Moon.</u>
+			</footer>
+		</div>
+	</body>
 </html>
