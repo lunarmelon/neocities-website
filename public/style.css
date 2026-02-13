@@ -37,9 +37,9 @@
 	--ctp-crust: #11111b;
 }
 
-html {
+body {
 	font-family: monospace;
-	font-size: 16px;
+	font-size: 17px;
 	background-color: var(--ctp-crust);
 	background-size: 100px;
 	color: var(--ctp-text);
@@ -256,4 +256,12 @@ figcaption {
 .aboutme-image {
 	max-height: 250px;
 	border: 1px solid var(--ctp-mauve);
+}
+
+.guestbook {
+	height: 80vh;
+	width: 100%;
+	margin: 0 auto;
+	overflow-y: auto;
+	border-color: transparent;
 }
