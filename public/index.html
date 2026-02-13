@@ -5,7 +5,6 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="style.css">
 		<link rel="icon" type="image/png" href="assets/Gengar-Gen2.png">
-		<script src="components/status-cafe.js" defer></script>
 		<title>Lunarium</title>
 	</head>
 
@@ -42,7 +41,16 @@
 
 				<aside id="leftSidebar" style="margin-right: 10px">
 					<h2 style="margin-top: 0px">Updates</h2>
-					<status-cafe></status-cafe>
+					<div class="box">
+						<div id="statuscafe">
+							<div id="statuscafe-username"></div>
+							<div id="statuscafe-content"></div>
+						</div>
+						<script
+							src="https://status.cafe/current-status.js?name=kawamelon"
+							defer
+						></script>
+					</div>
 					<br>
 					<div class="marquee">
 						<!--Buttons-->
