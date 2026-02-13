@@ -63,9 +63,11 @@ body {
 #header {
 	width: 100%;
 	background-color: var(--header-background);
-	height: 300px;
+	aspect-ratio: 16 / 5;
 	background-image: var(--header-image);
-	background-size: 100%;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
 }
 
 #navbar {
@@ -215,8 +217,7 @@ strong {
 	}
 
 	#header {
-		background-size: 800px;
-		background-position-x: 38rem;
+		height: 150px;
 	}
 }
 
