@@ -19,7 +19,7 @@ module.exports = (eleventyConfig) => {
 	});
 
 	return {
-		pathPrefix: "/website/blog/",
+		pathPrefix: "/blog/",
 		dir: {
 			input: "content",
 			output: "website/blog",
