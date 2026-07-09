@@ -1,3 +1,10 @@
-# Index
+---
+title: Index
+layout: "index.njk"
+---
 
-Hello this is the blog index
+{% for post in collections.posts %}
+
+- [{{ post.data.title }}]({{ post.url | url }})
+
+{% endfor %}
