@@ -1,5 +1,5 @@
 ---
-title: Index
+title: INDEX (title pending)
 layout: "index.njk"
 ---
 

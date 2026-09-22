@@ -6,5 +6,8 @@
 	"scripts": {
 		"start": "eleventy --serve",
 		"build": "eleventy"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "2.5.14"
 	}
 }

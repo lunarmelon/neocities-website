@@ -18,6 +18,8 @@ module.exports = (eleventyConfig) => {
 		return content;
 	});
 
+	eleventyConfig.addPassthroughCopy("style.css");
+
 	return {
 		pathPrefix: "/blog/",
 		dir: {
