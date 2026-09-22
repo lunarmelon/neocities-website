@@ -1,6 +1,8 @@
 :root {
-	--header-image: url("assets/watch04.gif");
+	--header-image: url("assets/phos_frozen.webp");
 	--body-bg-image: url("assets/stars 2.gif");
+
+	--marquee-play-state: running;
 
 	/* colors */
 	--content: #43256e;
@@ -39,7 +41,7 @@
 
 body {
 	font-family: monospace;
-	font-size: 17px;
+	font-size: 18px;
 	background-color: var(--ctp-crust);
 	background-size: 100px;
 	color: var(--ctp-text);
@@ -221,18 +223,10 @@ strong {
 	}
 }
 
-#statuscafe {
-	padding: 5px;
-}
-
-#statuscafe-username {
-	margin-bottom: 0.3em;
-	padding: 5px;
-}
-
-#statuscafe-content {
-	margin: auto;
-	padding: 5px;
+@media (prefers-reduced-motion: reduce) {
+	:root {
+		--marquee-play-state: paused;
+	}
 }
 
 .marquee {
@@ -243,6 +237,7 @@ strong {
 	animation-delay: 0s;
 	animation-iteration-count: infinite;
 	animation-direction: normal;
+	animation-play-state: var(--marquee-play-state);
 	max-width: none;
 }
 
